@@ -74,11 +74,11 @@ ul li:before {
 
 @keyframes append-animate {
     from {
-        transform: scaleY(0);
+        transform: translateX(-100%);
         opacity: 0;
     }
     to {
-        transform: scaleY(1);
+        transform: translateX(0%);
         opacity: 1;
     }
 }
