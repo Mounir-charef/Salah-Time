@@ -23,7 +23,6 @@ const getPrayer = async (position) => {
         ]);
 
         const [cityData, prayerData] = await Promise.all([respTodoOne.json(), respTodoTwo.json()]);
-        console.log(prayerData)
         let time = document.createElement('h3');
         time.textContent = d.toLocaleTimeString();
         time.classList.add('new-li','timezone');
